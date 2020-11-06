@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">	
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+  <div class="row">
+   <div class="col-md-6">
+     <div class="exsion">
+       <div class="start">Wordpress</div>
+       <div class="rating">
+         <span><input type="radio" name="rating" id="str5" value="5"><label for="str5"></label></span>
+         <span><input type="radio" name="rating" id="str4" value="4"><label for="str4"></label></span>
+         <span><input type="radio" name="rating" id="str3" value="3"><label for="str3"></label></span>
+         <span><input type="radio" name="rating" id="str2" value="2"><label for="str2"></label></span>
+         <span><input type="radio" name="rating" id="str1" value="1"><label for="str1"></label></span>
+         <span><input type="radio" name="rating" id="str6" value="5"><label for="str6"></label></span>
+         <span><input type="radio" name="rating" id="str7" value="4"><label for="str7"></label></span>
+         <span><input type="radio" name="rating" id="str8" value="3"><label for="str8"></label></span>
+         <div id="triangle-topright"></div>
+       </div>
+     </div>  
+   </div>
+ </div>
+
+ <!-- Thư viện jquery đã nén phục vụ cho bootstrap.min.js  -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script type="text/javascript">
+  $(document).ready(function(){
+          // Check Radio-box
+          $(".rating input:radio").attr("checked", false);
+
+          $('.rating input').click(function () {
+            $(".rating span").removeClass('checked');
+            $(this).parent().addClass('checked');
+          });
+
+        });
+      </script>
+    </body>
+    </html>

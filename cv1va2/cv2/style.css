@@ -1,0 +1,218 @@
+
+.images_one img {
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    transform: rotate(128deg);
+    top: -30px;
+    left: -30px;
+}
+
+.images_two img {
+    width: 310px;
+    position: absolute;
+    bottom: -48px;
+    left: -80px;
+}
+.images_three img {
+    width: 160px;
+    position: absolute;
+    transform: rotate(-62deg);
+    right: -46px;
+    top: 356px;
+    z-index: 0;
+}
+.images_four img {
+    width: 205px;
+    position: absolute;
+    bottom: -137px;
+    right: -25px;
+}
+.right.col-md-6 {
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow: hidden;
+}
+
+.left.col-md-6 {
+    padding-left: 30px;
+    padding-right: 30px;
+     overflow: hidden;
+}
+.face_main {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.face_main img {
+    width: 260px;
+    height: 390px;
+    position: absolute;
+    top: -30px;
+}
+.name {
+    text-align: center;
+    font-weight: bold;
+}
+.job_experience.right1 {
+    margin-top: 50px;
+}
+.images{
+    position: absolute;
+    
+}
+span.name-detail {
+    font-size: 40px;
+}
+
+span.name-detail {
+    font-size: 40px;
+    color: #7f7272;
+}
+
+.painter {
+    font-size: 20px;
+    color: #7f7272;
+}
+.about_me {
+    font-size: 25px;
+    display: inline-block;
+    background: #e54966;
+    padding: 0px 20px;
+    color: #fff;
+}
+
+.left1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.border {
+    width: 100%;
+    height: 4px;
+    background: #9c9c9c;
+    margin: 25px 0 20px 0;
+}
+.text-area{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+
+}
+.text-area  textarea{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+}
+.in-put{
+    border: none;
+    background-color: transparent;
+
+}
+.contant {
+    padding: 0px 60px;
+    color: #7f7272;
+}
+.icon_mes img {
+    width: 50px;
+    height: 50px;
+}
+
+.icon_add {
+    display: flex;
+    justify-content: start;
+    padding-left: 153px;
+    padding-bottom: 40px;
+}
+
+.left2 {
+    text-align: center;
+}
+
+.add_icon {
+    padding-left: 40px;
+    color: #7f7272;
+}
+.center{
+    text-align: center;
+}
+p.contan_right_h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+p.contan_right_h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+p.contan_right_h3 {
+    font-size: 16px;
+}
+
+.contan_right {
+    padding-bottom: 30px;
+    color: #7f7272;
+}
+.year {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.contan_right_h1 {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.contan_right_h2 {
+    font-size: 17px;
+    font-weight: bold;
+}
+.year {
+    float: left;
+}
+
+.contan_right_x {
+    display: flow-root;
+    padding-left: 30px;
+}
+
+.contan_right1 {
+    margin-bottom: 35px;
+    color: #7f7272;
+}
+p.html_min {
+    font-size: 18px;
+    color: #7f7272;
+}
+
+.border_pro.col-md-6 {
+    text-align: center;
+}
+.proskills{
+    margin-bottom: 90px
+}
+.border_tron {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid #e54966;
+}
+.rating {
+    display: flex;
+    justify-content: center;
+}
+
+p.html_min {
+    margin-bottom: 0;
+}
+
+.border_tron {margin: 0 1px;}
